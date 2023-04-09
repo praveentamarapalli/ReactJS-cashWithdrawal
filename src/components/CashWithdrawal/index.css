@@ -1,0 +1,100 @@
+/* Write your CSS here */
+.main-container {
+  background-color: #ffffff;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.withdraw-container {
+  background-color: #150b3e;
+  background-size: cover;
+  padding: 20px;
+  border-radius: 10px;
+  width: 450px;
+}
+
+.name-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+
+.icon {
+  font-size: 15px;
+  height: 50px;
+  width: 50px;
+  font-weight: bold;
+  border-radius: 25px;
+  background-color: #c7d2fe;
+  border: 0px none #c7d2fe;
+  margin-right: 10px;
+}
+
+.name {
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-size: 30px;
+  color: #d4d2db;
+  margin-right: 20px;
+}
+
+.balance-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.balance {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 20px;
+  color: #585076;
+  margin-left: 10px;
+}
+
+.amount {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 25px;
+  color: #d4d2db;
+  margin-right: 10px;
+}
+
+.text {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 10px;
+  color: #585076;
+  margin-right: 10px;
+  text-align: right;
+}
+
+.withdraw {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 20px;
+  color: #d4d2db;
+  margin-left: 10px;
+}
+
+.choose-option {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 15px;
+  color: #585076;
+  margin-left: 10px;
+}
+
+.denomination-container {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
